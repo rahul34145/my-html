@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        header {
+            background-color: red;
+        }
+
+        .box {
+            border: 2px dashed rgb(60, 11, 11);
+           
+            width: 40px;
+            text-align: center;
+            background-color: aqua;
+        }
+        .box1 {
+            border: 2px dashed rgb(60, 11, 11);
+           
+            /* margin-left: 85%; */
+
+            width: 40px;
+            text-align: center;
+            background-color: aqua;
+        }
+        body{
+            background-color: brown;
+        }
+        .boxes{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="time"></p>
+    <div class="boxes">
+
+    
+        <div class="box" id="box1">My name box1</div>
+        <div class="box" id="box2">My name box2</div>
+        <div class="box" id="box3">My name box3</div>
+        <div class="box" id="box4">My name box4</div>
+
+        <div class="box1" id="box1">My name box1</div>
+        <div class="box1" id="box2">My name box2</div>
+        <div class="box1" id="box3">My name box3</div>
+        <div class="box1" id="box4">My name box4</div>
+    </div>
+        <script>
+            setInterval(()=>{
+                let time=new Date();
+                document.getElementById('time').innerHTML=time;
+            },1000);
+        </script>
+    
+   
+</body>
+
+</html>

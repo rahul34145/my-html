@@ -1,0 +1,30 @@
+h2 {
+    background-color: rgb(125, 203, 232);
+    color: rgb(89, 16, 223);
+    text-align: center;
+    height: 190px;
+    border-color: rgb(221, 107, 107);
+}
+
+input {
+
+    background-color: rgb(213, 241, 241);
+    size: 100px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+
+}
+
+label {
+    text-align: center;
+    margin: 10%;
+
+}
+
+html {
+    background-color: rgb(214, 186, 186);
+    border-color: black;
+}
+
+   

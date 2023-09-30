@@ -1,0 +1,32 @@
+.ok{
+    background-color: rgb(12, 12, 12);
+    
+    
+}
+img{
+    border: 2px solid;
+    border-color: aliceblue;
+   
+}
+body{
+   background-color: rgb(113, 109, 109);
+}
+.img
+{
+    border: 20px solid;
+}
+ul{
+    
+    display: flex;
+    position: relative;
+    margin-left: 50%;
+}
+li{
+    list-style: none;
+    flex-basis: 60%;
+    text-align: center;
+    background-color: bisque;
+    border: 2px solid; 
+    border-radius: 20px
+    
+}

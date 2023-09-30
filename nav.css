@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(20, 176, 127);
+}
+ul{
+    display: flex;
+    position: relative;
+    list-style: none;
+   
+    border-radius: 20px;
+    padding-left: 70%;
+   
+}
+li:hover{
+   
+color: rgb(145, 38, 59);
+background-color: rgb(235, 244, 244);
+    
+}
+/*body:hover{
+    height: 1000px;
+    column-rule: red;
+    background-color: blanchedalmond;
+}
+ul:hover{
+    background-color: brown;
+}*/
+a{
+    padding:20px;
+    color: rgb(47, 47, 103);
+}
